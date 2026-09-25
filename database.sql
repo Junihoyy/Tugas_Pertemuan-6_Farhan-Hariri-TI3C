@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS db_portal_berita;
+USE db_portal_berita;
+
+CREATE TABLE IF NOT EXISTS berita (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(255) NOT NULL,
+    gambar VARCHAR(255) DEFAULT NULL,
+    isi TEXT NOT NULL,
+    penulis VARCHAR(100) NOT NULL,
+    tanggal DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
