@@ -8,9 +8,9 @@ Setiap tugas dikumpulkan dalam folder terpisah sesuai pertemuan, agar mudah dite
 
 ```
 .
-├── Tugas_Pertemuan-5/
+├── Tugas_Pertemuan-6/
 │   ├── koneksi.php
-│   └── tabel_mahasiswa.php
+│   └── edit.php.php
 └── ...
 ```
 
